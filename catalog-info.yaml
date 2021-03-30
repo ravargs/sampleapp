@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sampleapp"
+  description: "Sample application"
+  annotations:
+    github.com/project-slug: ravargs/sampleapp
+    backstage.io/techdocs-ref: url:https://github.com/ravargs/sampleapp
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "ravargs"

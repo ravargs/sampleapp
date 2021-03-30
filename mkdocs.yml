@@ -1,0 +1,8 @@
+site_name: "sampleapp"
+site_description: "Sample application"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
